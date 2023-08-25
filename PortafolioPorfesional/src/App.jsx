@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Navbar from './Components/Navbar'
 
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-3xl font-bold underline font-bebas'>Hello WORLD</h1>
+      <Navbar></Navbar>
     </>
   )
 }
