@@ -11,10 +11,10 @@ function Home() {
             <section className='mt-28'>
                 <img className='w-72 h-80 rounded-md shadow-lg' src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="My photo" />
                 <div className='w-72 flex justify-center gap-4 mt-4'>
-                    <a href="https://github.com/Leslie-L"><FontAwesomeIcon className='w-8 h-8' icon={faGithub} /></a>
-                    <a href=""><FontAwesomeIcon className='w-8 h-8' icon={faTwitter} /></a>
-                    <a href=""><FontAwesomeIcon className='w-8 h-8' icon={faLinkedin} /></a>
-                    <a href=""><FontAwesomeIcon className='w-8 h-8' icon={faEnvelope} /></a>
+                    <a href="https://github.com/Leslie-L"><FontAwesomeIcon className='w-8 h-8 hover:text-pink' icon={faGithub} /></a>
+                    <a href=""><FontAwesomeIcon className='w-8 h-8 hover:text-pink' icon={faTwitter} /></a>
+                    <a href=""><FontAwesomeIcon className='w-8 h-8 hover:text-pink' icon={faLinkedin} /></a>
+                    <a href=""><FontAwesomeIcon className='w-8 h-8 hover:text-pink' icon={faEnvelope} /></a>
                 </div>
             </section>
             <section className='font-size font-monserrat md:mt-28 md:ml-12 md:flex md:justify-center md:items-center'>
