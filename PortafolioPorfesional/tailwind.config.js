@@ -19,6 +19,9 @@ export default {
         'beige': '#D6D6BD',
         'orange': '#FA8C29',
       },
+      width: {
+        '320': '320px',
+      }
     },
   },
   plugins: [],

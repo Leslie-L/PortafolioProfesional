@@ -13,3 +13,6 @@ export const toolsInfo ={
     'TITLE':'Tools',
     'SUBTITLE':'Languages/Libraries/Frameworks',
 }
+export const projectInfo ={
+    'TITLE':'Projects',
+}
