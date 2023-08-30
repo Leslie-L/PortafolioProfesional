@@ -8,7 +8,7 @@ function Projects() {
                 <h2 className='justify-self-start px-4 font-beba font-bold text-xl text-orange'>{projectInfo.TITLE}</h2>
             </div>
             <div className="w-full flex justify-center">
-                <div className="w-[95%] overflow-x-auto snap-x snap-mandatory  flex space-x-10 items-center justify-center">
+                <div className="pl-96 w-[95%] overflow-x-auto snap-x snap-mandatory  flex space-x-10 items-center justify-center md:pl-0">
                     {
                         projects.map(project=>{
                             return <ProjectCard key={project.title} props={project}/>
