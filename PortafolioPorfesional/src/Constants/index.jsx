@@ -16,3 +16,9 @@ export const toolsInfo ={
 export const projectInfo ={
     'TITLE':'Projects',
 }
+export const contactInfo = {
+    'TITLE': 'Contact me',
+    'Paragraph':'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+    'FORM':['Name','Subject','Your Email','Message'],
+    'BUTTON':'Send Message'
+}
