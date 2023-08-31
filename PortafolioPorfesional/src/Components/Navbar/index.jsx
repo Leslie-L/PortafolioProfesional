@@ -26,10 +26,10 @@ function Navbar() {
                     </ul>
                 </div>
                 <ul className=' hidden md:flex font-bebas'>
-                    <li><a className='px-2' href="#AboutMe" >{navTitles.ABOUTME}</a></li>
-                    <li><a className='px-2' href="#tools">{navTitles.TOOLS}</a></li>
-                    <l><a className='px-2' href="#projects">{navTitles.PROJECTS}</a></l>
-                    <li><a className='px-2' href="#contact">{navTitles.CONTACT}</a></li>
+                    <li><a className='px-2 hover:underline' href="#AboutMe" >{navTitles.ABOUTME}</a></li>
+                    <li><a className='px-2 hover:underline' href="#tools">{navTitles.TOOLS}</a></li>
+                    <l><a className='px-2 hover:underline' href="#projects">{navTitles.PROJECTS}</a></l>
+                    <li><a className='px-2 hover:underline' href="#contact">{navTitles.CONTACT}</a></li>
                 </ul>
             </div>
         </nav>
