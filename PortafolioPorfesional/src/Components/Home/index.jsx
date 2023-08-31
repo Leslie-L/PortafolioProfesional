@@ -7,7 +7,7 @@ import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { homeInfo } from '../../Constants'
 function Home() {
     return(
-        <main id='AboutMe' className='w-full h-screen flex flex-col justify-center items-center md:flex-row'>
+        <main id='AboutMe' className='w-full h-auto flex flex-col justify-center items-center md:flex-row'>
             <section className='mt-28'>
                 <img className='w-72 h-80 rounded-md shadow-lg' src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="My photo" />
                 <div className='w-72 flex justify-center gap-4 mt-4'>

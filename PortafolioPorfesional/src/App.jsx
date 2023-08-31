@@ -11,10 +11,12 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Home/>
-      <Tools/>
-      <Projects/>
-      <Contact/>
+      <div className='flex flex-col space-y-12'>
+        <Home/>
+        <Tools/>
+        <Projects/>
+        <Contact/>
+      </div>
     </>
   )
 }
