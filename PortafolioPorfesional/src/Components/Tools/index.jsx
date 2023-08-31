@@ -3,7 +3,7 @@ import CardTools from './CardTools';
 import {technologies} from './infoTech';
 function Tools() {
     return(
-        <section id='tools' className='w-full  h-full flex flex-col justify-center md:items-center '>
+        <section id='tools' className='w-full  max-h-full min-h-screen flex flex-col justify-center md:items-center bg-white dark:bg-black '>
             <div  className='w-full md:h-1/5'>
                 <h2 className='justify-self-start px-4 font-beba font-bold text-xl text-orange'>{toolsInfo.TITLE}</h2>
                 <h3 className='text-center font-monserrat font-semibold text-blue mb-4'>{toolsInfo.SUBTITLE}</h3>  

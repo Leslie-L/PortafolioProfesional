@@ -7,10 +7,10 @@ function ProjectCard({props}) {
         )
     }
     return(//
-        <article className="w-[310px] h-[500px] snap-always snap-center mb-2 flex-shrink-0 p-2 rounded-lg shadow-xl bg-white flex flex-col justify-center items-center">
+        <article className="w-[310px] h-[500px] snap-always snap-center mb-2 flex-shrink-0 p-2 rounded-lg shadow-xl  bg-white flex flex-col justify-center items-center dark:bg-black dark:shadow-white dark:border-2 dark:border-white">
             {props.img}
             <h3 className="font-montserrat font-semibold text-md text-blue text-center">{props.title}</h3>
-            <p className="font-montserrat font-light text-sm m-2 flex-1">{props.description}</p>
+            <p className="font-montserrat font-light text-sm m-2 flex-1 dark:text-white">{props.description}</p>
             <a className="p-1 w-auto h-7 rounded-md bg-orange self-start font-bebas text-white hover:bg-pink" href={props.github}>Github Repository</a>
             <div className="self-start py-2">
                 <h4 className="font-montserrat font-semibold text-md text-blue">Technologies</h4>

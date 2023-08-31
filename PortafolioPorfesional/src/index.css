@@ -4,6 +4,12 @@
 
 
 
+
+.dshadow{
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 4px 20px 4px 0xFFFFFF
+}
+
 ::-webkit-scrollbar {
     width: 6px; 
     background-color: #D6D6BD;

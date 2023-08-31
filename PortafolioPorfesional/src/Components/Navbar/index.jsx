@@ -1,19 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
-
+import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { navTitles } from '../../Constants'
 import { useState } from 'react'
-function Navbar() {
+function Navbar({dark, setDark}) {
     
     const [toggle, setToggle]=useState(true);
-
+    function handleDark() {
+        setDark(!dark);
+    }
     return(
     <>
         <nav className="w-full h-12 fixed flex justify-between items-center px-4 bg-pink shadow-md text-lg">
             <span className="font-bebas font-bold text-lg">LOGO</span>
             <div className='flex items-center'>
-                <FontAwesomeIcon className='px-5' icon={faMoon} />
+                <FontAwesomeIcon className='px-5' icon={dark ?  faSun : faMoon }  onClick={()=>handleDark()} />
                 <button className='md:hidden' onClick={()=>{setToggle(!toggle)}}>
                     <FontAwesomeIcon icon={faBars} />
                 </button>
