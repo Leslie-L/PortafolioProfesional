@@ -8,11 +8,12 @@ function Contact() {
     function onSubmit(data,e){
         e.preventDefault();
         //console.log(data)
+        
         const newMess = 'Name: ' + data.name + '\n'+ data.message;
         const messageContent ={
             SecureToken : import.meta.env.VITE_TOKEN,
-            To : import.meta.env.VITE_EMAIL,
-            From : data.email,
+            To : data.email,
+            From : import.meta.env.VITE_EMAIL,
             Subject : data.subject,
             Body : newMess
         }
