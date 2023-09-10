@@ -7,7 +7,7 @@ function Contact() {
 
     function onSubmit(data,e){
         e.preventDefault();
-        console.log(data)
+        //console.log(data)
         const newMess = 'Name: ' + data.name + '\n'+ data.message;
         const messageContent ={
             SecureToken : import.meta.env.VITE_TOKEN,
@@ -20,7 +20,7 @@ function Contact() {
             window.Email.send(messageContent)
                 .then( message => {
                     reset()
-                    alert('mensaje enviado')
+                    alert(message)
                 });
         }
         
