@@ -9,10 +9,10 @@ function Contact() {
         e.preventDefault();
         //console.log(data)
         
-        const newMess = 'Name: ' + data.name + '\n'+ data.message;
+        const newMess = 'Name: ' + data.name + '\n'+"EMAIL:"+data.email+ '\n' + data.message;
         const messageContent ={
             SecureToken : import.meta.env.VITE_TOKEN,
-            To : data.email,
+            To : import.meta.env.VITE_EMAIL,
             From : import.meta.env.VITE_EMAIL,
             Subject : data.subject,
             Body : newMess
