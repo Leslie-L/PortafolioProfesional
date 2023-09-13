@@ -36,12 +36,12 @@ function Contact() {
         
     }
     return(
-        <section id="contact" className="mt-20 mb-20 max-h-full min-h-screen flex flex-col justify-center items-center  dark:bg-black">
+        <section id="contact" className=" mb-20 max-h-full min-h-screen flex flex-col justify-center items-center  dark:bg-black">
             {showNotification && <Notification/>}
             <div  className='w-full md:h-1/5'>
                 <h2 className='justify-self-start px-4 font-beba font-bold text-xl text-orange'>{contactInfo.TITLE}</h2>
             </div>
-            <div className="flex flex-col justify-center items-center lg:flex-row lg:space-x-8">
+            <div className="flex flex-col flex-1 justify-center items-center lg:flex-row lg:space-x-8">
                 <p className="font-montserrat text-md ml-4 lg:pt-20 lg:w-96 lg:self-start lg:text-xl dark:text-white">{contactInfo.Paragraph}</p>
                 <form 
                     className="w-[310px] h-[480px] flex flex-col justify-center shadow-lg rounded-lg p-3 dark:shadow-white dark:border-2 dark:border-white"
