@@ -1,15 +1,23 @@
+import { useState } from "react";
 import { contactInfo } from "../../Constants";
 import { useForm } from "react-hook-form";
+import Notification from "./Notification";
 
 function Contact() {
     const { register, handleSubmit,reset } = useForm();
-
+    const [showNotification, setShowNotification] = useState(false);
+    function handleNotification() {
+        setShowNotification(true);
+        setTimeout(() => {
+            setShowNotification(false);
+        }, 2500);
+    }
 
     function onSubmit(data,e){
         e.preventDefault();
         //console.log(data)
         
-        const newMess = 'Name: ' + data.name + '\n'+"EMAIL:"+data.email+ '\n' + data.message;
+        const newMess = 'Name: ' + data.name + '<br>'+"Email:"+data.email+ '<br>' + data.message;
         const messageContent ={
             SecureToken : import.meta.env.VITE_TOKEN,
             To : import.meta.env.VITE_EMAIL,
@@ -17,17 +25,19 @@ function Contact() {
             Subject : data.subject,
             Body : newMess
         }
+        
         if(window.Email.send){
             window.Email.send(messageContent)
                 .then( message => {
                     reset()
-                    alert(message)
+                    handleNotification() 
                 });
         }
         
     }
     return(
         <section id="contact" className="mt-20 mb-20 max-h-full min-h-screen flex flex-col justify-center items-center  dark:bg-black">
+            {showNotification && <Notification/>}
             <div  className='w-full md:h-1/5'>
                 <h2 className='justify-self-start px-4 font-beba font-bold text-xl text-orange'>{contactInfo.TITLE}</h2>
             </div>
