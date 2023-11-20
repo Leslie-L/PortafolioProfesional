@@ -7,7 +7,7 @@ export const navTitles ={
 export const homeInfo = {
     'GREETING': 'Hi!',
     'NAME':'I\'m Leslie Centeno',
-    'INTRODUCE': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    'INTRODUCE': 'Passionate Systems Engineer with a Master\'s in Operations Research. Skilled in problem-solving and driven by challenging projects. I am passionate about engaging in projects that allow me to apply my skills and enthusiasm in a dynamic professional setting. Additionally, driven by the goal to create applications that are more accessible and user-friendly, enhancing the overall user experience.'
 }
 export const toolsInfo ={
     'TITLE':'Tools',
@@ -18,7 +18,7 @@ export const projectInfo ={
 }
 export const contactInfo = {
     'TITLE': 'Contact me',
-    'Paragraph':'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+    'Paragraph':'If you have any questions, suggestions, or simply want to chat about collaborations, feel free to contact me. I look forward to hearing from you soon, and thank you for visiting my portfolio!',
     'FORM':['Name','Subject','Your Email','Message'],
     'BUTTON':'Send Message'
 }

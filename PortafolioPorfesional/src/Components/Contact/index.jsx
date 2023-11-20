@@ -17,7 +17,7 @@ function Contact() {
         e.preventDefault();
         //console.log(data)
         
-        const newMess = 'Name: ' + data.name + '<br>'+"Email:"+data.email+ '<br>' + data.message;
+        const newMess = 'Name: ' + data.name + '<br>'+"Email: "+data.email+ '<br> ' + data.message;
         const messageContent ={
             SecureToken : import.meta.env.VITE_TOKEN,
             To : import.meta.env.VITE_EMAIL,

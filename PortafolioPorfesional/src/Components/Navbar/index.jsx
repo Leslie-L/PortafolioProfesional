@@ -13,7 +13,7 @@ function Navbar({dark, setDark}) {
     return(
     <>
         <nav className="w-full h-12 fixed flex justify-between items-center px-4 bg-pink shadow-md text-lg">
-            <span className="font-bebas font-bold text-lg">LOGO</span>
+            <span className="font-bebas font-bold text-lg">Leslie</span>
             <div className='flex items-center'>
                 <FontAwesomeIcon className='px-5' icon={dark ?  faSun : faMoon }  onClick={()=>handleDark()} />
                 <button className='md:hidden' onClick={()=>{setToggle(!toggle)}}>

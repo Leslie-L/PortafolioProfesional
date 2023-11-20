@@ -7,7 +7,7 @@ function ProjectCard({props}) {
         )
     }
     return(//
-        <article className="w-[310px] h-[500px] snap-always snap-center mb-2 flex-shrink-0 p-6 rounded-lg shadow-xl  bg-white flex flex-col justify-center items-center dark:bg-black dark:shadow-white dark:border-2 dark:border-white">
+        <article className="w-[300px] h-[450px] snap-always snap-center mb-2 flex-shrink-0 p-6 rounded-lg shadow-lg  bg-white flex flex-col justify-center items-center dark:bg-black dark:shadow-white ">
             {props.img}
             <h3 className="font-montserrat font-semibold text-md text-blue text-center">{props.title}</h3>
             <p className="font-montserrat font-light text-sm m-2 flex-1 dark:text-white">{props.description}</p>
