@@ -26,25 +26,25 @@ export const projects = [
         'title':'Pokedex',
         'img':<Images img={Pokedex} title={'Pokedex'}/>,
         'description':'App where you can see all the Pokemons.',
-        'github':'https://github.com/Leslie-L/TicTacToe',
+        'github':'https://github.com/Leslie-L/Pokedex',
         'technoligies':['Html','React','Taildwind','Vite.js','Redux'],
-        'link':'https://github.com/Leslie-L/Pokedex'
+        'link':'https://velvety-monstera-4607d4.netlify.app'
     },
     {
         'title':'FakeShop',
         'img':<Images img={Fakeshop} title={'Fakeshop'}/>,
         'description':'Application that simulates a virtual store',
-        'github':'https://classy-llama-096c90.netlify.app/',
+        'github':'https://github.com/Leslie-L/E-commerceV1/tree/main/E-CommerceV1',
         'technoligies':['Html','React','Taildwind','Vite.js'],
-        'link':'https://github.com/Leslie-L/E-commerceV1/tree/main/E-CommerceV1'
+        'link':'https://classy-llama-096c90.netlify.app/'
     },
     {
         'title':'Where\'s in the Wold?',
         'img':<Images img={Flags} title={'Flags in the world'}/>,
         'description':'Application where you can see all the countries in the world and their details.',
-        'github':'https://amazing-cobbler-b17f99.netlify.app/',
+        'github':'https://github.com/Leslie-L/Projects/tree/main/Advance/rest-countries-api-with-color-theme-switcher-master',
         'technoligies':['Html','CSS','JavaScript'],
-        'link':'https://github.com/Leslie-L/E-commerceV1/tree/main/E-CommerceV1'
+        'link':'https://amazing-cobbler-b17f99.netlify.app'
     },
     {
         'title':'Twitter Login Clone',
