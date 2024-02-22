@@ -5,7 +5,16 @@ import Flags from './ProjectCard/Images/flags.jpg';
 import TICTACTOE from './ProjectCard/Images/tictactoe.jpg';
 import Fakeshop from './ProjectCard/Images/fakeshop.jpg';
 import Pokedex from './ProjectCard/Images/pokedex.jpg';
+import FutureWorld from './ProjectCard/Images/FutureWorld.jpg'
 export const projects = [
+    {
+        'title':'Future World',
+        'img':<Images img={FutureWorld} title={'Future World'}/>,
+        'description':'Fake e-commerce where users can purchase futuristic items.',
+        'github':'https://github.com/Leslie-L/next-14',
+        'technoligies':['Next.js','React','Typescript','Zustand','CSS','Supabase'],
+        'link':'https://next-14-adxc.vercel.app'
+    },
     {
         'title':'GoodBooks',
         'img':<Images img={goodbooks} title={'Goodbooks'}/>,
